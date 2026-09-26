@@ -46,7 +46,7 @@ export default function FinalCTA() {
         >
           <a
             href="#top"
-            className="inline-flex items-center gap-3 border-2 border-paper-light bg-aws-orange px-10 py-4 font-headline text-base uppercase tracking-[0.2em] text-ink transition-all duration-200 hover:-translate-y-1 hover:bg-paper-light hover:shadow-[6px_6px_0_0_#ff9900]"
+            className="inline-flex items-center gap-3 border-2 border-paper-light bg-aws-orange px-10 py-4 font-headline text-base uppercase tracking-[0.2em] text-paper-light transition-all duration-200 hover:-translate-y-1 hover:bg-paper-light hover:text-ink hover:shadow-[6px_6px_0_0_#26538B]"
           >
             Register For Community Day →
           </a>

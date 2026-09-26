@@ -2,6 +2,6 @@
   <rect width="64" height="64" fill="#f4f1e8"/>
   <rect x="6" y="6" width="52" height="52" fill="none" stroke="#161412" stroke-width="2"/>
   <text x="32" y="30" font-family="Georgia, serif" font-size="26" font-weight="900" text-anchor="middle" fill="#161412">TH</text>
-  <rect x="16" y="40" width="32" height="4" fill="#ff9900"/>
+  <rect x="16" y="40" width="32" height="4" fill="#26538B"/>
   <rect x="16" y="48" width="32" height="2" fill="#161412"/>
 </svg>

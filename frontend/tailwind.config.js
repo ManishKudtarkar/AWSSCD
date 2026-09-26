@@ -16,11 +16,11 @@ export default {
           soft: '#2a2723',
           faded: '#5b564d',
         },
-        // AWS accent — used sparingly
+        // Accent — used sparingly
         aws: {
-          orange: '#ff9900',
+          orange: '#26538B',
           blue: '#232f3e',
-          smile: '#ec7211',
+          smile: '#26538B',
         },
       },
       fontFamily: {

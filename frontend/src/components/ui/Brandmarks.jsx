@@ -16,11 +16,11 @@ export function AwsMark({ className = 'h-6 w-auto' }) {
       <path
         d="M4 34 q18 10 44 0"
         fill="none"
-        stroke="#ff9900"
+        stroke="#26538B"
         strokeWidth="3"
         strokeLinecap="round"
       />
-      <path d="M44 30 l6 4 -6 4z" fill="#ff9900" />
+      <path d="M44 30 l6 4 -6 4z" fill="#26538B" />
     </svg>
   )
 }
@@ -51,7 +51,7 @@ export function TinkeringMark({ className = 'h-6 w-auto' }) {
           strokeWidth="1.6"
         />
         <path d="M8 4V2M16 4V2M8 22v-2M16 22v-2M4 8H2M4 16H2M22 8h-2M22 16h-2" stroke="currentColor" strokeWidth="1.4" />
-        <circle cx="12" cy="12" r="3" fill="#ff9900" />
+        <circle cx="12" cy="12" r="3" fill="#26538B" />
       </svg>
       <span className="font-headline text-[0.6rem] uppercase leading-tight tracking-widest text-ink-faded">
         Tinkering<br />Hub

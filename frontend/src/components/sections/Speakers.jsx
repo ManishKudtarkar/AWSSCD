@@ -25,12 +25,12 @@ export default function Speakers() {
             >
               <div className="relative aspect-[4/5] overflow-hidden border-b-2 border-ink bg-ink">
                 {/* Halftone-style portrait placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle,rgba(255,153,0,0.25)_1px,transparent_1px)] [background-size:8px_8px]">
+                <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle,rgba(38,83,139,0.25)_1px,transparent_1px)] [background-size:8px_8px]">
                   <span className="font-display text-6xl font-black text-paper-light/90">
                     {sp.initials}
                   </span>
                 </div>
-                <span className="absolute left-0 top-0 bg-aws-orange px-2 py-1 font-type text-[0.6rem] uppercase tracking-widest text-ink">
+                <span className="absolute left-0 top-0 bg-aws-orange px-2 py-1 font-type text-[0.6rem] uppercase tracking-widest text-paper-light">
                   {String(i + 1).padStart(2, '0')}
                 </span>
               </div>
