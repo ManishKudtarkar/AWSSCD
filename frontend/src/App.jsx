@@ -9,6 +9,7 @@ import GetInvolved from './components/sections/GetInvolved'
 import Schedule from './components/sections/Schedule'
 import Showcase from './components/sections/Showcase'
 import Gallery from './components/sections/Gallery'
+import AttendingBadge from './components/sections/AttendingBadge'
 import FinalCTA from './components/sections/FinalCTA'
 
 const TICKER_ITEMS = [
@@ -35,6 +36,7 @@ export default function App() {
           <Schedule />
           <Showcase />
           <Gallery />
+          <AttendingBadge />
           <FinalCTA />
         </main>
         <Footer />

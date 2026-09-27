@@ -25,6 +25,7 @@ export const NAV = [
   { label: 'Schedule', href: '#schedule' },
   { label: 'Showcase', href: '#showcase' },
   { label: 'Gallery', href: '#gallery' },
+  { label: 'My Badge', href: '#badge' },
 ]
 
 export const EXPECT = [
@@ -143,6 +144,16 @@ export const JOIN_LOOP_ITEMS = [
   'TAKE THE STAGE',
   'SHARE YOUR STORY',
   'BUILD THE COMMUNITY',
+]
+
+// "I'm Attending" badge — roles a guest can pick before generating their pass.
+export const BADGE_ROLES = [
+  'Builder',
+  'Student',
+  'Volunteer',
+  'Speaker',
+  'Mentor',
+  'Cloud Enthusiast',
 ]
 
 export const STATS = [
