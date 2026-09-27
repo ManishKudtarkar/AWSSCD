@@ -13,7 +13,7 @@ const fade = {
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-24 md:pt-28">
-      <div className="container-news px-5 pb-10 sm:px-8 md:px-12">
+      <div className="container-news px-4 pb-10 sm:px-6 md:px-8">
         <div className="rule-double" />
 
         {/* Organizer folio — small nameplate, not the star */}

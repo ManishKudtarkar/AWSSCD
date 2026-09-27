@@ -20,13 +20,13 @@ export default function Navbar() {
       className="fixed inset-x-0 top-0 z-50"
     >
       <div
-        className={`mx-auto w-full max-w-[1400px] transition-all duration-300 ${
+        className={`mx-auto w-full transition-all duration-300 ${
           scrolled
             ? 'border-b-2 border-x border-ink/80 bg-paper-light/95 backdrop-blur'
             : 'border-b border-transparent bg-transparent'
         }`}
       >
-      <nav className="container-news flex items-center justify-between px-5 py-3 md:px-8">
+      <nav className="container-news flex items-center justify-between px-4 py-3 sm:px-6 md:px-8">
         <a href="#top" className="group flex items-baseline gap-2">
           <span className="font-display text-lg font-black tracking-tight md:text-xl">
             <span className="lg:hidden">ASBG</span>

@@ -21,6 +21,7 @@ export const NAV = [
   { label: 'The Story', href: '#story' },
   { label: 'Expect', href: '#expect' },
   { label: 'Speakers', href: '#speakers' },
+  { label: 'Get Involved', href: '#get-involved' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Showcase', href: '#showcase' },
   { label: 'Gallery', href: '#gallery' },
@@ -113,6 +114,35 @@ export const SHOWCASE = [
     title: 'Good Cloud Habits',
     body: 'Cost-aware, secure and well-architected — the community is learning to build responsibly from day one.',
   },
+]
+
+// "Get Involved" call-out roles — scrolled on an infinite loop.
+export const JOIN_ROLES = [
+  {
+    tag: 'WANTED',
+    role: 'Volunteer',
+    body: 'Be the crew behind the crowd — help run registration, sessions and the community mixer.',
+    perks: ['Backstage access', 'Crew tee & badge', 'Certificate'],
+    cta: 'Volunteer With Us',
+    href: '#register',
+  },
+  {
+    tag: 'CALL FOR',
+    role: 'Speaker',
+    body: 'Got a story worth the front page? Take the stage and share your build with the community.',
+    perks: ['Main-stage slot', 'Speaker kit', 'Feature spotlight'],
+    cta: 'Apply As Speaker',
+    href: '#register',
+  },
+]
+
+export const JOIN_LOOP_ITEMS = [
+  'BECOME A VOLUNTEER',
+  'APPLY AS SPEAKER',
+  'JOIN THE CREW',
+  'TAKE THE STAGE',
+  'SHARE YOUR STORY',
+  'BUILD THE COMMUNITY',
 ]
 
 export const STATS = [

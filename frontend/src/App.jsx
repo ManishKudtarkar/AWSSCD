@@ -5,6 +5,7 @@ import Hero from './components/sections/Hero'
 import Story from './components/sections/Story'
 import Expect from './components/sections/Expect'
 import Speakers from './components/sections/Speakers'
+import GetInvolved from './components/sections/GetInvolved'
 import Schedule from './components/sections/Schedule'
 import Showcase from './components/sections/Showcase'
 import Gallery from './components/sections/Gallery'
@@ -30,6 +31,7 @@ export default function App() {
           <Story />
           <Expect />
           <Speakers />
+          <GetInvolved />
           <Schedule />
           <Showcase />
           <Gallery />

@@ -4,7 +4,7 @@ import { AwsMark, ParulMark } from './ui/Brandmarks'
 export default function Footer() {
   return (
     <footer className="border-t-2 border-ink bg-paper-light">
-      <div className="container-news px-5 py-10 sm:px-8 md:px-12">
+      <div className="container-news px-4 py-10 sm:px-6 md:px-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="text-center md:text-left">
             <p className="font-display text-2xl font-black">{EVENT.masthead}</p>
